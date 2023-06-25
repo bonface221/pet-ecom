@@ -6,15 +6,15 @@ interface petService {
   description: string;
   price: string;
 }
-interface product {
+export interface product {
   id: number;
   name: string;
   price: string;
 }
 
-interface products {
+export interface products {
   name: string;
-  products: product[];
+  Products: product[];
 }
 
 export interface Data {

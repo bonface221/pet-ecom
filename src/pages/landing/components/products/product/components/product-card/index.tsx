@@ -1,8 +1,13 @@
 import { Box, Flex, Heading, Icon, Image, Stack, Text } from "@chakra-ui/react";
 import FeaturedP1 from "/imgs/fp1.png";
 import { AiFillStar } from "react-icons/ai";
+import { product } from "../../../../../../../hooks/useFetchData";
 
-const ProductCard = () => {
+interface Props {
+  productCard: product;
+}
+
+const ProductCard = ({ productCard }: Props) => {
   return (
     <Flex gap={4}>
       <Flex align="center" bg="brand.bgBlue">
@@ -11,7 +16,7 @@ const ProductCard = () => {
 
       <Stack gap={2}>
         <Heading fontSize="20px" fontFamily="Nunito Variable" fontWeight={800}>
-          Detachable Gravity Bowl Food Feeder
+          {productCard.name}
         </Heading>
         <Flex>
           {[1, 2, 3, 4].map((item, i) => (
@@ -24,7 +29,7 @@ const ProductCard = () => {
           fontWeight={800}
           fontFamily="Nunito Variable"
         >
-          $30.12
+          {productCard.price}
         </Text>
       </Stack>
     </Flex>

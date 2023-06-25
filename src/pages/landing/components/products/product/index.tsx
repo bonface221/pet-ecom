@@ -1,16 +1,22 @@
 import { Box, Divider, Heading, SimpleGrid, Stack } from "@chakra-ui/react";
 import ProductCard from "./components/product-card";
 
-const Product = () => {
+import { products } from "../../../../../hooks/useFetchData";
+
+interface Props {
+  product: products;
+}
+
+const Product = ({ product }: Props) => {
   return (
     <Stack spacing={5}>
       <Heading fontSize="32px" fontFamily="Nunito Variable" fontWeight={700}>
-        Featured Products
+        {product.name}
       </Heading>
       <Stack spacing={5}>
-        {[1, 2, 3, 4].map((item, i) => (
+        {product?.Products?.map((p, i) => (
           <Box key={i}>
-            <ProductCard key={i} />
+            <ProductCard productCard={p} />
             <Divider />
           </Box>
         ))}

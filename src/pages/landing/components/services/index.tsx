@@ -21,12 +21,12 @@ const Services = () => {
       <Heading alignSelf="center">All Pet Care Services</Heading>
 
       <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={5}>
-        {[1, 2, 3, 4, 5, 6].map((item, i) => (
+        {data?.PetServices.map((item, i) => (
           <ServiceCard
             key={i}
-            title="Walking & Sitting"
-            description="Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae eget dolor morbi "
-            price="$15 / hour"
+            title={item.name}
+            description={item.description}
+            price={item.price}
           />
         ))}
       </SimpleGrid>

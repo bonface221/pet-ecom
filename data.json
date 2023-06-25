@@ -1,0 +1,102 @@
+{
+  "PetServices": [
+    {
+      "id": 1,
+      "name": "Walking & Sitting",
+      "description": "Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae eget dolor morbi .",
+      "price": "15 /hour"
+    },
+    {
+      "id": 2,
+      "name": "Pet Grooming",
+      "description": "Et odio pellentesque diam volutpat commodo sed egestas egestas  pellentesque nec nam .",
+      "price": "39 /complex"
+    },
+    {
+      "id": 3,
+      "name": "Pet Training",
+      "description": "Aliquam ut porttitor leo a diam sollicitudin tempor  sit amet est placerat .",
+      "price": "27 /hour"
+    },
+    {
+      "id": 4,
+      "name": "Pet Taxi",
+      "description": "Maecenas ultricies mi eget mauris pharetra et ultrices consectetur adipiscing elit.",
+      "price": "22 /trip"
+    },
+    {
+      "id": 5,
+      "name": "Health & Wellness",
+      "description": "Amet porttitor eget dolor morbi non arcu risus quis varius blandit aliquam etiam.",
+      "price": "39 /visit"
+    },
+    {
+      "id": 5,
+      "name": "Pet Hotel",
+      "description": "Amet porttitor eget dolor morbi non arcu risus quis varius blandit aliquam etiam.",
+      "price": "15 /night"
+    }
+  ],
+  "AllProducts": [
+    {
+      "name": "Featured Products",
+      "Products": [
+        {
+          "id": 1,
+          "name": "Detachable Gravity Bowl Food Feeder",
+          "price": "$30.12"
+        },
+        {
+          "id": 2,
+          "name": "Dog Collar for Small, Medium, Large Dogs",
+          "price": "$16.12"
+        },
+        {
+          "id": 3,
+          "name": "Pink Embossed Spiked Collar",
+          "price": "$34.12"
+        }
+      ]
+    },
+    {
+      "name": "On Sale Products",
+      "Products": [
+        {
+          "id": 1,
+          "name": "Black Leather Spike Dog Collar, Small",
+          "price": "$25.12"
+        },
+        {
+          "id": 2,
+          "name": "Dog Chew Toys for Chewers",
+          "price": "$8.12"
+        },
+        {
+          "id": 3,
+          "name": "Duck Jerky Strips Dog Treats",
+          "price": "$32.12"
+        }
+      ]
+    },
+    {
+      "name": "Top Rated Products",
+      "Products": [
+        {
+          "id": 1,
+          "name": "Carrying Bag for Cats Weighing up to 6 kg",
+          "price": "$70.12"
+        },
+        {
+          "id": 2,
+          "name": "Rhinestone Pet Collar",
+          "price": "$35.12"
+        },
+        {
+          "id": 3,
+          "name": "Teeth Cleaning Toy for Dogs",
+          "price": "$12.12"
+        }
+      ]
+    }
+  ]
+}

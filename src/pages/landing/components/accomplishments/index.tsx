@@ -1,6 +1,6 @@
 import { Box, Flex, Stack, Text } from "@chakra-ui/react";
-import Projects from "/imgs/projects.png";
 import { SatisfiedClientsIcon } from "../../../../components/icons/icon";
+import Projects from "/imgs/projects.png";
 
 const Accomplishments = () => {
   return (
@@ -18,7 +18,7 @@ const Accomplishments = () => {
         h="100%"
         mx="60px"
       >
-        {["1", "2", "3", "4"].map((item, i) => (
+        {[1, 2, 3, 4].map((i) => (
           <Stack
             key={i}
             direction="row"

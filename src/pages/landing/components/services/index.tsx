@@ -1,7 +1,7 @@
-import { Box, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
-import ServiceCard from "./components/service-card";
+import { Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { useContext } from "react";
 import { petEcomContext } from "../../../../App";
+import ServiceCard from "./components/service-card";
 
 const Services = () => {
   const data = useContext(petEcomContext);

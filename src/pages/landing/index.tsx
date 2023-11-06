@@ -1,15 +1,15 @@
-import { Box, Stack } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
+import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
-import Home from "./components/home";
 import Accomplishments from "./components/accomplishments";
-import Services from "./components/services";
+import Contact from "./components/contact";
+import Home from "./components/home";
+import OtherPosts from "./components/other-posts";
+import OurBlog from "./components/our-blog";
 import OurSpecials from "./components/our-specials";
 import Products from "./components/products";
+import Services from "./components/services";
 import Subscribe from "./components/subscribe";
-import OurBlog from "./components/our-blog";
-import Contact from "./components/contact";
-import OtherPosts from "./components/other-posts";
-import Footer from "../../components/footer";
 
 const Landing = () => {
   return (

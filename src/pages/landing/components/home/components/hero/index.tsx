@@ -8,8 +8,8 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import Dog from "/imgs/dog.png";
 import { TrustIcon } from "./../../../../../../components/icons/icon";
+import Dog from "/imgs/dog.png";
 
 const Hero = () => {
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
             at. Potenti nullam ac tortor vitae purus faucibus ornare.
           </Text>
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={3}>
-            {[1, 2, 3, 4].map((item, i) => (
+            {[1, 2, 3, 4].map((i) => (
               <Stack direction="row" key={i} gap={2} align="center">
                 <IconButton
                   boxSize="60px"

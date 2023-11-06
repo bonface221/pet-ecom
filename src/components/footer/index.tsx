@@ -1,5 +1,4 @@
 import {
-  Box,
   Divider,
   Flex,
   Icon,
@@ -13,16 +12,16 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import FooterImage1 from "/imgs/footer-img1.png";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import {
-  FaPhoneAlt,
   FaCircle,
   FaFacebookF,
   FaInstagram,
+  FaPhoneAlt,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import FooterImage1 from "/imgs/footer-img1.png";
 
 const Footer = () => {
   return (

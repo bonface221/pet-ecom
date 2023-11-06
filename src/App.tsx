@@ -1,20 +1,21 @@
+import { createContext } from "react";
+import DATA from "../data.json";
 import "./App.css";
-import { createContext, useEffect, useState } from "react";
 
+import { Data } from "./hooks/useFetchData";
 import Landing from "./pages/landing";
-import { Data, useFetchData } from "./hooks/useFetchData";
 
-export const petEcomContext = createContext<Data | undefined>(undefined);
+export const petEcomContext = createContext<Data | undefined>(DATA);
 
 function App() {
-  const { data, isLoading, isError } = useFetchData();
+  // const { data, isLoading, isError } = useFetchData();
 
-  if (isLoading) return <div>Loading...</div>;
-  if (isError) return <div>Error</div>;
+  // if (isLoading) return <div>Loading...</div>;
+  // if (isError) return <div>Error</div>;
 
   return (
     <>
-      <petEcomContext.Provider value={data}>
+      <petEcomContext.Provider value={DATA}>
         <Landing />
       </petEcomContext.Provider>
     </>

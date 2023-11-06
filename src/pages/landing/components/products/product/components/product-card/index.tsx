@@ -1,7 +1,7 @@
-import { Box, Flex, Heading, Icon, Image, Stack, Text } from "@chakra-ui/react";
-import FeaturedP1 from "/imgs/fp1.png";
+import { Flex, Heading, Icon, Image, Stack, Text } from "@chakra-ui/react";
 import { AiFillStar } from "react-icons/ai";
 import { product } from "../../../../../../../hooks/useFetchData";
+import FeaturedP1 from "/imgs/fp1.png";
 
 interface Props {
   productCard: product;
@@ -19,7 +19,7 @@ const ProductCard = ({ productCard }: Props) => {
           {productCard.name}
         </Heading>
         <Flex>
-          {[1, 2, 3, 4].map((item, i) => (
+          {[1, 2, 3, 4].map((i) => (
             <Icon key={i} color="brand.yellow" as={AiFillStar} />
           ))}
         </Flex>

@@ -1,4 +1,4 @@
-import { Box, Icon, IconButton, Stack, Text } from "@chakra-ui/react";
+import { Box, Icon, Stack, Text } from "@chakra-ui/react";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const ContactCard = () => {

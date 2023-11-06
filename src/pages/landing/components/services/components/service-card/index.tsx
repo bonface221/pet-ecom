@@ -1,9 +1,9 @@
 import { Box, Flex, Icon, Image, Stack, Text } from "@chakra-ui/react";
-import { WalkingIcon } from "../../../../../../components/icons/icon";
 import { GoArrowRight } from "react-icons/go";
+import { WalkingIcon } from "../../../../../../components/icons/icon";
 import Paws from "/imgs/paws.png";
 
-const ServiceCard = ({ title, description, price }) => {
+const ServiceCard = ({ title, description, price }: any) => {
   return (
     <Stack
       position="relative"

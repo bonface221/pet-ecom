@@ -1,4 +1,4 @@
-import { Box, Divider, Heading, SimpleGrid, Stack } from "@chakra-ui/react";
+import { Box, Divider, Heading, Stack } from "@chakra-ui/react";
 import ProductCard from "./components/product-card";
 
 import { products } from "../../../../../hooks/useFetchData";
